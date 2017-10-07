@@ -26,6 +26,7 @@ public class printSpiral {
             System.out.println();
 
         }
+        // 2nd half
         for (int i = n - 2; i + 1 > 0; i--) { //increment line
             for (int j = 0; j < n; j++) { // increment spaces
                 if (j > i)
